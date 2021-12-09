@@ -45,7 +45,7 @@ public class SwiftAppLinksPlugin: NSObject, FlutterPlugin {
           return false
         }
         handleLink(url: url)
-        return true
+        return false
       default: return false
     }
   }
